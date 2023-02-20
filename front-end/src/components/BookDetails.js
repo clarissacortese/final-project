@@ -18,7 +18,7 @@ export default function BookDetails({ book }) {
       return;
     }
     const response = await fetch(
-      `http://localhost:4000/api/books/${book._id}`,
+      `https://final-project-api-x4ux.onrender.com/api/books/${book._id}`,
       {
         method: "DELETE",
         headers: {

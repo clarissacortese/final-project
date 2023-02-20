@@ -13,7 +13,7 @@ export default function View() {
 
   useEffect(() => {
     const fetchBooks = async () => {
-      const response = await fetch("http://localhost:4000/api/books", {
+      const response = await fetch("https://final-project-api-x4ux.onrender.com/api/books", {
         headers: { "Authorization": `Bearer ${user.token}` },
       });
       const json = await response.json();
