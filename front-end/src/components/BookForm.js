@@ -69,7 +69,7 @@ export default function BookForm() {
       pageNumber,
       status,
     };
-    const response = await fetch("https://final-project-api-x4ux.onrender.com/api/books", {
+    const response = await fetch("https://final-project-api-ee3q.onrender.com/api/books", {
       method: "POST",
       body: JSON.stringify(book),
       headers: {

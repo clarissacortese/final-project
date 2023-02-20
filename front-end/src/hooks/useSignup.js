@@ -12,7 +12,7 @@ export const useSignup = () => {
     setIsLoading(true);
     setError(null);
 
-    const response = await fetch("https://final-project-api-x4ux.onrender.com/api/users/signup", {
+    const response = await fetch("https://final-project-api-ee3q.onrender.com/api/users/signup", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email, password }),

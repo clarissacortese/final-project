@@ -18,7 +18,7 @@ export default function BookDetails({ book }) {
       return;
     }
     const response = await fetch(
-      `https://final-project-api-x4ux.onrender.com/api/books/${book._id}`,
+      `https://final-project-api-ee3q.onrender.com/api/books/${book._id}`,
       {
         method: "DELETE",
         headers: {
