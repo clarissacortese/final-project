@@ -36,7 +36,7 @@ export default function BookDetails({ book }) {
     <Card
       sx={{
         backgroundColor: "#C0A5D1",
-        width: "30%",
+        width: {xs: "200px", md: "40%", lg: "30%"},
         display: "flex",
         flexDirection: "column",
         justifyContent: "space-between",

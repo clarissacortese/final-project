@@ -18,7 +18,7 @@ export default function Navbar() {
   return (
     <AppBar
       position="static"
-      sx={{ m: 0, p: "10px", backgroundColor: "#3B163D" }}>
+      sx={{ m: 0, p: "10px", backgroundColor: "#3B163D"}}>
       <Typography
         variant="h4"
         component="div"
@@ -28,7 +28,7 @@ export default function Navbar() {
       <Box sx={{ position: "absolute", right: "60px" }}>
         {user && (
           <Box sx={{ display: "flex", alignItems: "center" }}>
-            <Box sx={{ mr: "20px", color: "#F4E7FC" }}>{user.email}</Box>
+            <Box sx={{ mr: "20px", color: "#F4E7FC", display: {xs: "none", sm: "block"} }}>{user.email}</Box>
             <Button
               variant="contained"
               color="secondary"
